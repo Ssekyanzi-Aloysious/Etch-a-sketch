@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(36, 36, 36);
+}
+#container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    background-color: rgb(37, 37, 37);
+    border: 1px solid transparent;
+    transition: 1s ease-in-out;
+}
+.cell:hover{
+    background-color: red;
+    transition: 0s ease-in-out;
+}
